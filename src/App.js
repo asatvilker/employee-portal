@@ -19,7 +19,7 @@ class App extends Component {
     
     
     componentWillMount(){
-      console.log(REACT_APP_API_KEY)
+      console.log(process.env)
       var registry = RegistryInstance
       
       for (let index = 0; index < data.users.length; index++) {
