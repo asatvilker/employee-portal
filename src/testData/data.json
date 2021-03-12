@@ -1,0 +1,79 @@
+{
+    "users":[
+    {   "username":"asatvilker",
+        "password":"Password123",
+        "info":{
+            "adminID":"1",
+            "Fname":"Adam", 
+            "Lname":"Satvilker", 
+            "salary":30000, 
+            "address":{
+                "postcode":"ab1 2cd",
+                "city":"London",
+                "country":"England",
+                "street":"Mile end rd",
+                "number":7
+            }, 
+            "phone":12345678901,
+            "email":"asatvilker.as@gmail.com",
+            "bookings":[{"start":"20-07-2021", "end":"23-07-2021"},{"start":"23-08-2021", "end":"24-08-2021"},{"start":"3-11-2021", "end":"4-11-2021"}], 
+            "events":"", 
+            "limit":"14",
+            "balance":"11",
+            "requests":[]
+        }
+    },
+    {
+        "username":"wmark",
+        "password":"Password123",
+        "info":{
+            "adminID":"2",
+            "Fname":"Wayne", 
+            "Lname":"Mark", 
+            "salary":30000, 
+            "address":{
+                "postcode":"ab1 2cd",
+                "city":"London",
+                "country":"England",
+                "street":"Mile end rd",
+                "number":7
+            }, 
+            "phone":12345678901,
+            "email":"asatvilker.as@gmail.com",
+            "bookings":[{"start":"20-07-2021", "end":"23-07-2021"},{"start":"23-08-2021", "end":"24-08-2021"},{"start":"3-11-2021", "end":"4-11-2021"}], 
+            "events":"", 
+            "limit":"14",
+            "balance":"11",
+            "requests":[]
+        }
+    },
+    {   "username":"djames",
+        "password":"Password123",
+        "info":{
+            "adminID":"3",
+            "Fname":"Daniel", 
+            "Lname":"James", 
+            "salary":30000, 
+            "address":{
+                "postcode":"ab1 2cd",
+                "city":"London",
+                "country":"England",
+                "street":"Mile end rd",
+                "number":7
+            }, 
+            "phone":12345678901,
+            "email":"asatvilker.as@gmail.com",
+            "bookings":[{"start":"20-07-2021", "end":"23-07-2021"},{"start":"23-08-2021", "end":"24-08-2021"},{"start":"3-11-2021", "end":"4-11-2021"}], 
+            "events":"", 
+            "limit":"14",
+            "balance":"11",
+            "requests":[]
+        }
+    }
+
+    ],
+    "registry":{
+        "employees":[],
+        "clients":[]
+    }
+}
