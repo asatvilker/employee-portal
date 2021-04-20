@@ -1,6 +1,6 @@
 # An object orientated web app. 
 
-This prototype employee portal was made for a university software engineering project. It was made using OOP and followed a waterfall lifecycle model with a real stakeholder. This was made using OOP and implemented some OOP design principles (e.g. singleton).
+This prototype employee portal was made for a university software engineering project. It was made using OOP and followed a waterfall lifecycle model with a real stakeholder. We also implemented some OOP design principles (e.g. singleton).
 
 # Installing dependencies
 
