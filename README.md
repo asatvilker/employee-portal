@@ -6,11 +6,11 @@ This prototype employee portal was made for a university software engineering pr
 
 To install package required to run the application, please ensure you have installed npm, then run the following at the root of the project folder:
 
-### `npm install`
+### `npm install`
 
 Then to run it locally (explained below):
 
-### `npm start`
+### `npm start`
 
 
 # Getting Started with Create React App
