@@ -1,3 +1,18 @@
+# An object orientated web app. 
+
+This prototype employee portal was made for a university software engineering project. It was made using OOP and followed a waterfall lifecycle model with a real stakeholder. This was made using OOP and implemented some OOP design principles (e.g. singleton).
+
+# Installing dependencies
+
+To install package required to run the application, please ensure you have installed npm, then run the following at the root of the project folder:
+
+### `npm install`
+
+Then to run it locally (explained below):
+
+### `npm start`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
