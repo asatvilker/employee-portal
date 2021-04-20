@@ -1,0 +1,27 @@
+#announcements{
+    background-color: #f8f9fa;
+    padding: 2vh;
+    max-height: 50vh;
+    
+}
+#announcements .postContainer{
+    height: 40vh;
+    overflow-y: scroll;
+}
+
+#announcements h1{
+    color: #1fadec;
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+#announcements .post h1{
+    color: #1fadec;
+    font-size: 2vh;
+    font-weight: 200;
+}
+#announcements .post{
+    
+    background-color: white;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}

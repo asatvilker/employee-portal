@@ -1,0 +1,32 @@
+#home .banner
+{
+    margin-top: 5vh;
+    height: 40vh;
+    background-color: #1fadec;
+}
+.navbar{
+    background-color: black;
+    border-top: solid 0.2vh #1daded;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.nav-link:hover{
+    color: #1daded !important;
+}
+.navbar-collapse{
+    padding-top: 2vh;
+}
+#home img{
+    height: 4vh;
+}
+#home .banner h1{
+    color: white;
+    font-weight: 400;
+}
+#home .homeRows{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+body{
+    scroll-behavior: smooth;
+}

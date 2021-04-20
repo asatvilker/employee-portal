@@ -8,28 +8,38 @@
             "Lname":"Satvilker", 
             "salary":30000, 
             "address":{
-                "postcode":"ab1 2cd",
+                "postcode":"nw7 1ll",
                 "city":"London",
                 "country":"England",
-                "street":"Mile end rd",
+                "street":"Devonshire road",
                 "number":7
             }, 
             "phone":12345678901,
             "email":"asatvilker.as@gmail.com",
-            "bookings":[{"start":"20-07-2021", "end":"23-07-2021"},{"start":"23-08-2021", "end":"24-08-2021"},{"start":"3-11-2021", "end":"4-11-2021"}], 
+            "bookings":[{"start":"2021-07-22", "end":"2021-07-22"},{"start":"2021-08-23", "end":"2021-08-23"},{"start":"2021-11-03", "end":"2021-11-03"}], 
             "events":"", 
-            "limit":"14",
-            "balance":"11",
-            "requests":[]
+            "limit":14,
+            "balance":11,
+            "requests":[],
+            "type":"WithClient",
+            "role":"TechnicalOperations",
+            "stage":"",
+            "withClient":{
+                "postcode":"ab1 2cd",
+                "city":"London",
+                "country":"England",
+                "street":"Mile end rd",
+                "number":9
+            }
         }
     },
     {
-        "username":"wmark",
-        "password":"Password123",
+        "username":"djedryszczak",
+        "password":"dj",
         "info":{
             "adminID":"2",
-            "Fname":"Wayne", 
-            "Lname":"Mark", 
+            "Fname":"Dawid", 
+            "Lname":"Jedryszczak",
             "salary":30000, 
             "address":{
                 "postcode":"ab1 2cd",
@@ -40,19 +50,23 @@
             }, 
             "phone":12345678901,
             "email":"asatvilker.as@gmail.com",
-            "bookings":[{"start":"20-07-2021", "end":"23-07-2021"},{"start":"23-08-2021", "end":"24-08-2021"},{"start":"3-11-2021", "end":"4-11-2021"}], 
+            "bookings":[{"start":"2021-07-22", "end":"2021-07-22"},{"start":"2021-08-23", "end":"2021-08-23"},{"start":"2021-11-03", "end":"2021-11-03"}], 
             "events":"", 
-            "limit":"14",
-            "balance":"11",
-            "requests":[]
+            "limit":14,
+            "balance":11,
+            "requests":[],
+            "type":"Graduate",
+            "role":"General",
+            "stage":"Deploy",
+            "withClient":""
         }
     },
-    {   "username":"djames",
+    {   "username":"cgomes",
         "password":"Password123",
         "info":{
             "adminID":"3",
-            "Fname":"Daniel", 
-            "Lname":"James", 
+            "Fname":"Carlos", 
+            "Lname":"Alberto Naranjo Gomes", 
             "salary":30000, 
             "address":{
                 "postcode":"ab1 2cd",
@@ -60,15 +74,72 @@
                 "country":"England",
                 "street":"Mile end rd",
                 "number":7
-                
             }, 
             "phone":12345678901,
             "email":"asatvilker.as@gmail.com",
-            "bookings":[{"start":"20-07-2021", "end":"23-07-2021"},{"start":"23-08-2021", "end":"24-08-2021"},{"start":"3-11-2021", "end":"4-11-2021"}], 
+            "bookings":[{"start":"2021-07-22", "end":"2021-07-23"},{"start":"2021-08-23", "end":"2021-08-24"},{"start":"2021-11-03", "end":"2021-11-04"}], 
             "events":"", 
-            "limit":"14",
-            "balance":"11",
-            "requests":[]
+            "limit":14,
+            "balance":11,
+            "requests":[],
+            "type":"InternalStaff",
+            "role":"SoftwareDeveloper",
+            "stage":"",
+            "withClient":""
+        }
+    },
+    {   "username":"jkuipers",
+        "password":"Password123",
+        "info":{
+            "adminID":"3",
+            "Fname":"Jurjan", 
+            "Lname":"Theodorus Ulbe Wouda Kuipers", 
+            "salary":30000, 
+            "address":{
+                "postcode":"ab1 2cd",
+                "city":"London",
+                "country":"England",
+                "street":"Mile end rd",
+                "number":7
+            }, 
+            "phone":12345678901,
+            "email":"asatvilker.as@gmail.com",
+            "bookings":[{"start":"2021-07-22", "end":"2021-07-23"},{"start":"2021-08-23", "end":"2021-08-24"},{"start":"2021-11-03", "end":"2021-11-04"}], 
+            "events":"", 
+            "limit":14,
+            "balance":11,
+            "requests":[],
+            "type":"Returners",
+            "role":"SoftwareTestAnalyst",
+            "stage":"Train",
+            "withClient":""
+        }
+    },
+    {   "username":"gmalewicka",
+        "password":"Password123",
+        "info":{
+            "adminID":"3",
+            "Fname":"Gabriela", 
+            "Lname":"Malewicka", 
+            "salary":30000, 
+            "address":{
+                "postcode":"ab1 2cd",
+                "city":"London",
+                "country":"England",
+                "street":"Mile end rd",
+                "number":7
+            }, 
+            "phone":12345678901,
+            "email":"asatvilker.as@gmail.com",
+            "bookings":[{"start":"2021-07-22", "end":"2021-07-23"},{"start":"2021-08-23", "end":"2021-08-24"},{"start":"2021-11-03", "end":"2021-11-04"}], 
+            "events":"", 
+            "limit":14,
+            "balance":11,
+            "requests":[],
+            "type":"InternalStaff",
+            "role":"SoftwareDeveloper",
+            "stage":"",
+            "withClient":""
         }
     }
 
@@ -76,5 +147,45 @@
     "registry":{
         "employees":[],
         "clients":[]
-    }
+    },
+    "announcements":[
+        {
+            "id":"1",
+            "title":"This years annual business review",
+            "content":"bdfjhbvjfhvfjdkkehgvdfsjfbkjfn jcoiefe ioejfoe ofoemf kfjeokfmbhe kjopekf;erf,; oijoeflkemlfkge flkmkjnkjnjngr kgrjflmlkfgmlkmfg lkmlkdmgklrjirgjgmrlkgj klmklfgorjgorijgr lkgjgr jrngjhrbjrgb iuhfiurhiuhrihgrbiojoirtn irjgrijoi",
+            "date":"01-03-2021"
+        },
+        {
+            "id":"2",
+            "title":"This years annual performance",
+            "content":"bdfjhbvjfhvfjdkkehgvdfsjfbkjfn jcoiefe ioejfoe ofoemf kfjeokfmbhe kjopekf;erf,; oijoeflkemlfkge flkmkjnkjnjngr kgrjflmlkfgmlkmfg lkmlkdmgklrjirgjgmrlkgj klmklfgorjgorijgr lkgjgr jrngjhrbjrgb iuhfiurhiuhrihgrbiojoirtn irjgrijoi",
+            "date":"03-03-2021"
+        },
+        {
+            "id":"3",
+            "title":"Update to everbodies salary!",
+            "content":"bdfjhbvjfhvfjdkkehgvdfsjfbkjfn jcoiefe ioejfoe ofoemf kfjeokfmbhe kjopekf;erf,; oijoeflkemlfkge flkmkjnkjnjngr kgrjflmlkfgmlkmfg lkmlkdmgklrjirgjgmrlkgj klmklfgorjgorijgr lkgjgr jrngjhrbjrgb iuhfiurhiuhrihgrbiojoirtn irjgrijoi",
+            "date":"03-03-2021"
+        },
+        {
+            "id":"4",
+            "title":"Please update any outdated personal info!",
+            "content":"bdfjhbvjfhvfjdkkehgvdfsjfbkjfn jcoiefe ioejfoe ofoemf kfjeokfmbhe kjopekf;erf,; oijoeflkemlfkge flkmkjnkjnjngr kgrjflmlkfgmlkmfg lkmlkdmgklrjirgjgmrlkgj klmklfgorjgorijgr lkgjgr jrngjhrbjrgb iuhfiurhiuhrihgrbiojoirtn irjgrijoi",
+            "date":"06-03-2021"
+        },
+        {
+            "id":"5",
+            "title":"Hackothon happening soon, dont forget to sign up!",
+            "content":"bdfjhbvjfhvfjdkkehgvdfsjfbkjfn jcoiefe ioejfoe ofoemf kfjeokfmbhe kjopekf;erf,; oijoeflkemlfkge flkmkjnkjnjngr kgrjflmlkfgmlkmfg lkmlkdmgklrjirgjgmrlkgj klmklfgorjgorijgr lkgjgr jrngjhrbjrgb iuhfiurhiuhrihgrbiojoirtn irjgrijoi",
+            "date":"08-03-2021"
+        },
+        {
+            "id":"6",
+            "title":"Happy Easter everyone!",
+            "content":"bdfjhbvjfhvfjdkkehgvdfsjfbkjfn jcoiefe ioejfoe ofoemf kfjeokfmbhe kjopekf;erf,; oijoeflkemlfkge flkmkjnkjnjngr kgrjflmlkfgmlkmfg lkmlkdmgklrjirgjgmrlkgj klmklfgorjgorijgr lkgjgr jrngjhrbjrgb iuhfiurhiuhrihgrbiojoirtn irjgrijoi",
+            "date":"01-04-2021"
+        }
+    ]
+
+    
 }

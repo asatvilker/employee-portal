@@ -1,0 +1,83 @@
+#holidays{
+    margin-top: 2vh;
+    background-color: #f8f9fa;
+    padding: 2vh;
+    height: 100%;
+    
+}
+#holidays h1{
+    color: #1fadec;
+    font-weight: 400;
+    font-size: 2.5vh;
+}
+.holidayComponent
+{
+    margin-right: 1vh;
+    background-color: white;
+    padding: 1vh;
+    border: solid 0.1vh #1daded;
+    min-width: 11vh;
+    scroll-snap-align: start;
+}
+.holidayComponent p 
+{
+    font-weight: 500;
+    color:#1daded;
+    font-size: 1.2vh;
+}
+.holidayOuterContainer{
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-snap-type: x mandatory;
+}
+.holidayOuterContainer::-webkit-scrollbar{
+    display: none;
+    scroll-snap-type: x mandatory;
+
+}
+.outerOuter
+{
+    padding: 2vh;
+    background-color: white;
+    min-height: 20vh;
+    
+}
+#holidays .green-text{
+    color: #00c851 !important;
+}
+#holidays label{
+    margin-right: 1vh;
+    color: #1daded;
+    font-weight: 500;
+}
+#holidays .totalCard{
+    padding: 1vh;
+    background-color: white;
+    border: solid 0.1vh #1daded;
+}
+#holidays .cancel{
+    background-color: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+}
+#holidays .request{
+    
+    background-color: #1daded !important;
+}
+#holidays .inputs{
+    border-bottom: solid 0.1vh #1daded !important;
+    color: #1daded !important;
+}
+#holidays input:focus{
+    border-bottom: solid 0.3vh #1daded !important;
+}
+#holidays .iconClass{
+    color: #1daded !important;
+}
+
+#holidays .inputError{
+    color: red !important;
+    border-bottom: solid 0.1vh red !important;
+}

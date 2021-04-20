@@ -1,0 +1,21 @@
+#search{
+    margin-top: 2vh;
+    background-color: #f8f9fa;
+    padding: 2vh;
+    height: 100%;
+    
+}
+#search h1{
+    color: #1fadec;
+    font-weight: 400;
+    font-size: 2.5vh;
+    padding-bottom: 2vh;
+
+}
+#searchContent{
+    text-align: center;
+    visibility: hidden;
+}
+#firstBtn{
+    background-color: #1fadec !important;
+}
